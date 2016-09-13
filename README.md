@@ -1,8 +1,8 @@
-# angluar-table
-### general inforamtion
+# Angluar-table
+### General inforamtion
 a functional table
 
-### using
+### Using
 - angular 1.X
 - jquery
 - bootstrap 
