@@ -1,0 +1,28 @@
+.dropdown {
+    margin-bottom:20px;
+}
+
+.table {
+    margin-bottom:20px;
+    border: 1px solid black;
+}
+
+.regular-cell{
+
+}
+
+.title-cell, .title-hours-cell, .title-days-cell, .title-days-selected-cell, .title-hours-selected-cell{
+    font-weight: bold;
+    background:#3385ff;
+    color:white;
+}
+
+.selected-cell{
+    background: #ff6666;
+}
+
+td {
+    border-radius: 4px;
+    text-align: center;
+}
+

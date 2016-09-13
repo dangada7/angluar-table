@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+	<head lang="en">
+		
+		<!-- load packages -->
+		<script type="text/javascript" src="packages/angular.min.js"> </script>
+		<script type="text/javascript" src="packages/jquery-3.1.0.min.js"> </script>
+		
+		<link rel="stylesheet" href="packages/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+		<script type="text/javascript" src="packages/bootstrap-3.3.7-dist/js/bootstrap.min.js"> </script>
+
+		<!-- load my script --> 
+		<script type="text/javascript" src="script.js"> </script>
+
+		<!-- load my style -->
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+
+	<body ng-app="firstApp" ng-controller="myCtrl">
+		<div class="container">
+
+			<div class="page-header">
+				<h1> First mission</h1>
+			</div>
+
+			<div class="dropdown">
+				<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+					Dropdown
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+					<li><a href="#">Action</a></li>
+					<li><a href="#">Another action</a></li>
+					<li><a href="#">Something else here</a></li>
+					<li role="separator" class="divider"></li>
+					<li><a href="#">Separated link</a></li>
+				</ul>
+			</div>
+	
+			<hours-and-days-table ng-init="mousedown.test=false"> </hours-and-days-table>
+
+			<div>
+				<button class="btn btn-success" > Ok </button>
+				<button class="btn btn-danger">  Cancel </button>
+			</div>
+
+			
+
+		</div>
+	</body>
+
+</html>
